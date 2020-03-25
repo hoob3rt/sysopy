@@ -4,6 +4,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <time.h>
 
 void dump_matrices_to_files(char** argv, char* path) {
@@ -16,27 +17,25 @@ void dump_matrices_to_files(char** argv, char* path) {
     system(call);
     free(call);
     for(int i = 0; i < count; i++) {
-        int a_rows = rand() % (max - min + 1) + min;
-        int a_cols = rand() % (max - min + 1) + min;
-        int b_cols = rand() % (max - min + 1) + min;
-        char* a_name = calloc(100, sizeof(char));
-        char* b_name = calloc(100, sizeof(char));
-        char* c_name = calloc(100, sizeof(char));
-        sprintf(a_name, "%s/matrices/a%d.txt", path, i);
-        sprintf(b_name, "%s/matrices/b%d.txt", path, i);
-        sprintf(c_name, "%s/matrices/c%d.txt", path, i);
-
-        generate_matrix(a_rows, a_cols, a_name);
-        generate_matrix(a_cols, b_cols, b_name);
-
+        int first_rows = rand() % (max - min + 1) + min;
+        int first_columns = rand() % (max - min + 1) + min;
+        int second_columns = rand() % (max - min + 1) + min;
+        char* first_name = calloc(100, sizeof(char));
+        char* second_name = calloc(100, sizeof(char));
+        char* result_name = calloc(100, sizeof(char));
+        sprintf(first_name, "%s/matrices/first%d", path, i);
+        sprintf(second_name, "%s/matrices/second%d", path, i);
+        sprintf(result_name, "%s/matrices/result%d", path, i);
+        generate_matrix(first_rows, first_columns, first_name);
+        generate_matrix(first_columns, second_columns, second_name);
         char* command = calloc(1000, sizeof(char));
-        sprintf(command, "echo \"%s %s %s\" >> %s/lista", a_name, b_name,
-                c_name, path);
+        sprintf(command, "echo \"%s %s %s\" >> %s/lista", first_name, second_name,
+                result_name, path);
         system(command);
         free(command);
-        free(a_name);
-        free(b_name);
-        free(c_name);
+        free(first_name);
+        free(second_name);
+        free(result_name);
     }
 }
 
