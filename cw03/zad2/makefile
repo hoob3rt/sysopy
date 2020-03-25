@@ -27,9 +27,9 @@ $(OBJECTS): $(OBJDIR)/%.o : $(SRCDIR)/%.c
 .PHONY: test
 test: remove 
 	make
-	./$(BINDIR)/generator $(BINDIR)/ 7 14 5
+	./$(BINDIR)/generator $(BINDIR)/ 2 20 10
 	./$(BINDIR)/matrix $(BINDIR)/lista 4 3 2
-	bash tester.sh $(BINDIR)/test_suite $(BINDIR)/matrices
+	@bash tester.sh $(BINDIR)/test_suite $(BINDIR)/matrices
 
 .PHONY: clean
 clean:
