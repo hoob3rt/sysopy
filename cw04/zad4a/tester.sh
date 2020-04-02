@@ -13,7 +13,6 @@ function breaker(){
 
 pkill catcher && pkill sender
 breaker sigrt
-echo $COLUMNS
 ./bin/catcher sigrt&
 ./bin/sender `pidof catcher` 100 sigrt
 breaker kill
