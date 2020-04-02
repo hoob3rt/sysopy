@@ -43,4 +43,5 @@ int main(int argc, char** argv) {
     while(WAIT)
         ;
     printf("sender got: %d signals\n", RECEIVED_SIGNALS);
+    return 0;
 }

@@ -45,4 +45,5 @@ int main(int argc, char** argv) {
         }
         sigqueue(PID, sig2, sig);
     }
+    return 0;
 }
