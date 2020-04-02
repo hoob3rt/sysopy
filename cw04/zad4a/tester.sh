@@ -11,6 +11,7 @@ function breaker(){
   printf "\n"
 }
 
+pkill catcher && pkill sender
 breaker sigrt
 echo $COLUMNS
 ./bin/catcher sigrt&
