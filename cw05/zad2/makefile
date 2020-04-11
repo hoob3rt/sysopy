@@ -26,7 +26,7 @@ $(OBJECTS): $(OBJDIR)/%.o : $(SRCDIR)/%.c
 test: remove
 	make
 	@bash generator.sh test_file 20
-	./$(BINDIR)/sort test_file
+	./$(BINDIR)/$(TARGET) test_file
 
 .PHONY: clean
 clean:
