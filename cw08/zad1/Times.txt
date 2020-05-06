@@ -1,0 +1,166 @@
+
+sign - 1 threads
+Thread: 1, time: 0 seconds 1 miliseconds 719 microseconds
+Total time: 0 seconds 1 miliseconds 870 microseconds
+
+sign - 1 threads
+Thread: 1, time: 0 seconds 1 miliseconds 494 microseconds
+Total time: 0 seconds 1 miliseconds 582 microseconds
+
+block - 1 threads
+Thread: 1, time: 0 seconds 0 miliseconds 863 microseconds
+Total time: 0 seconds 1 miliseconds 81 microseconds
+
+interleaved - 1 threads
+Thread: 1, time: 0 seconds 0 miliseconds 962 microseconds
+Total time: 0 seconds 1 miliseconds 117 microseconds
+
+sign - 2 threads
+Thread: 1, time: 0 seconds 2 miliseconds 632 microseconds
+Thread: 2, time: 0 seconds 2 miliseconds 637 microseconds
+Total time: 0 seconds 2 miliseconds 715 microseconds
+
+block - 2 threads
+Thread: 1, time: 0 seconds 0 miliseconds 990 microseconds
+Thread: 2, time: 0 seconds 0 miliseconds 976 microseconds
+Total time: 0 seconds 1 miliseconds 68 microseconds
+
+interleaved - 2 threads
+Thread: 1, time: 0 seconds 1 miliseconds 27 microseconds
+Thread: 2, time: 0 seconds 1 miliseconds 31 microseconds
+Total time: 0 seconds 1 miliseconds 114 microseconds
+
+sign - 4 threads
+Thread: 1, time: 0 seconds 1 miliseconds 834 microseconds
+Thread: 2, time: 0 seconds 2 miliseconds 385 microseconds
+Thread: 3, time: 0 seconds 1 miliseconds 437 microseconds
+Thread: 4, time: 0 seconds 1 miliseconds 402 microseconds
+Total time: 0 seconds 2 miliseconds 473 microseconds
+
+block - 4 threads
+Thread: 1, time: 0 seconds 1 miliseconds 194 microseconds
+Thread: 2, time: 0 seconds 0 miliseconds 871 microseconds
+Thread: 3, time: 0 seconds 0 miliseconds 975 microseconds
+Thread: 4, time: 0 seconds 0 miliseconds 916 microseconds
+Total time: 0 seconds 1 miliseconds 285 microseconds
+
+interleaved - 4 threads
+Thread: 1, time: 0 seconds 0 miliseconds 996 microseconds
+Thread: 2, time: 0 seconds 1 miliseconds 91 microseconds
+Thread: 3, time: 0 seconds 1 miliseconds 67 microseconds
+Thread: 4, time: 0 seconds 1 miliseconds 50 microseconds
+Total time: 0 seconds 1 miliseconds 182 microseconds
+
+sign - 8 threads
+Thread: 1, time: 0 seconds 1 miliseconds 548 microseconds
+Thread: 2, time: 0 seconds 1 miliseconds 600 microseconds
+Thread: 3, time: 0 seconds 1 miliseconds 299 microseconds
+Thread: 4, time: 0 seconds 1 miliseconds 505 microseconds
+Thread: 5, time: 0 seconds 1 miliseconds 122 microseconds
+Thread: 6, time: 0 seconds 1 miliseconds 174 microseconds
+Thread: 7, time: 0 seconds 0 miliseconds 797 microseconds
+Thread: 8, time: 0 seconds 1 miliseconds 198 microseconds
+Total time: 0 seconds 4 miliseconds 102 microseconds
+
+block - 8 threads
+Thread: 1, time: 0 seconds 0 miliseconds 492 microseconds
+Thread: 2, time: 0 seconds 0 miliseconds 440 microseconds
+Thread: 3, time: 0 seconds 0 miliseconds 445 microseconds
+Thread: 4, time: 0 seconds 0 miliseconds 400 microseconds
+Thread: 5, time: 0 seconds 0 miliseconds 366 microseconds
+Thread: 6, time: 0 seconds 0 miliseconds 354 microseconds
+Thread: 7, time: 0 seconds 0 miliseconds 369 microseconds
+Thread: 8, time: 0 seconds 0 miliseconds 172 microseconds
+Total time: 0 seconds 1 miliseconds 177 microseconds
+
+interleaved - 8 threads
+Thread: 1, time: 0 seconds 0 miliseconds 460 microseconds
+Thread: 2, time: 0 seconds 0 miliseconds 516 microseconds
+Thread: 3, time: 0 seconds 0 miliseconds 506 microseconds
+Thread: 4, time: 0 seconds 0 miliseconds 440 microseconds
+Thread: 5, time: 0 seconds 0 miliseconds 442 microseconds
+Thread: 6, time: 0 seconds 0 miliseconds 453 microseconds
+Thread: 7, time: 0 seconds 0 miliseconds 338 microseconds
+Thread: 8, time: 0 seconds 0 miliseconds 227 microseconds
+Total time: 0 seconds 1 miliseconds 216 microseconds
+
+sign - 1 threads
+Thread: 1, time: 0 seconds 1 miliseconds 515 microseconds
+Total time: 0 seconds 1 miliseconds 687 microseconds
+
+block - 1 threads
+Thread: 1, time: 0 seconds 0 miliseconds 855 microseconds
+Total time: 0 seconds 0 miliseconds 936 microseconds
+
+interleaved - 1 threads
+Thread: 1, time: 0 seconds 1 miliseconds 19 microseconds
+Total time: 0 seconds 1 miliseconds 113 microseconds
+
+sign - 2 threads
+Thread: 1, time: 0 seconds 2 miliseconds 649 microseconds
+Thread: 2, time: 0 seconds 2 miliseconds 655 microseconds
+Total time: 0 seconds 2 miliseconds 761 microseconds
+
+block - 2 threads
+Thread: 1, time: 0 seconds 0 miliseconds 924 microseconds
+Thread: 2, time: 0 seconds 0 miliseconds 914 microseconds
+Total time: 0 seconds 0 miliseconds 999 microseconds
+
+interleaved - 2 threads
+Thread: 1, time: 0 seconds 1 miliseconds 24 microseconds
+Thread: 2, time: 0 seconds 1 miliseconds 14 microseconds
+Total time: 0 seconds 1 miliseconds 146 microseconds
+
+sign - 4 threads
+Thread: 1, time: 0 seconds 1 miliseconds 743 microseconds
+Thread: 2, time: 0 seconds 2 miliseconds 205 microseconds
+Thread: 3, time: 0 seconds 1 miliseconds 508 microseconds
+Thread: 4, time: 0 seconds 1 miliseconds 446 microseconds
+Total time: 0 seconds 2 miliseconds 279 microseconds
+
+block - 4 threads
+Thread: 1, time: 0 seconds 1 miliseconds 185 microseconds
+Thread: 2, time: 0 seconds 0 miliseconds 868 microseconds
+Thread: 3, time: 0 seconds 0 miliseconds 982 microseconds
+Thread: 4, time: 0 seconds 0 miliseconds 920 microseconds
+Total time: 0 seconds 1 miliseconds 354 microseconds
+
+interleaved - 4 threads
+Thread: 1, time: 0 seconds 0 miliseconds 981 microseconds
+Thread: 2, time: 0 seconds 1 miliseconds 114 microseconds
+Thread: 3, time: 0 seconds 1 miliseconds 27 microseconds
+Thread: 4, time: 0 seconds 1 miliseconds 46 microseconds
+Total time: 0 seconds 1 miliseconds 225 microseconds
+
+sign - 8 threads
+Thread: 1, time: 0 seconds 1 miliseconds 609 microseconds
+Thread: 2, time: 0 seconds 1 miliseconds 726 microseconds
+Thread: 3, time: 0 seconds 1 miliseconds 877 microseconds
+Thread: 4, time: 0 seconds 1 miliseconds 353 microseconds
+Thread: 5, time: 0 seconds 1 miliseconds 300 microseconds
+Thread: 6, time: 0 seconds 1 miliseconds 293 microseconds
+Thread: 7, time: 0 seconds 1 miliseconds 376 microseconds
+Thread: 8, time: 0 seconds 1 miliseconds 258 microseconds
+Total time: 0 seconds 3 miliseconds 318 microseconds
+
+block - 8 threads
+Thread: 1, time: 0 seconds 0 miliseconds 488 microseconds
+Thread: 2, time: 0 seconds 0 miliseconds 465 microseconds
+Thread: 3, time: 0 seconds 0 miliseconds 450 microseconds
+Thread: 4, time: 0 seconds 0 miliseconds 383 microseconds
+Thread: 5, time: 0 seconds 0 miliseconds 561 microseconds
+Thread: 6, time: 0 seconds 0 miliseconds 521 microseconds
+Thread: 7, time: 0 seconds 0 miliseconds 534 microseconds
+Thread: 8, time: 0 seconds 0 miliseconds 496 microseconds
+Total time: 0 seconds 1 miliseconds 244 microseconds
+
+interleaved - 8 threads
+Thread: 1, time: 0 seconds 0 miliseconds 517 microseconds
+Thread: 2, time: 0 seconds 0 miliseconds 555 microseconds
+Thread: 3, time: 0 seconds 0 miliseconds 525 microseconds
+Thread: 4, time: 0 seconds 0 miliseconds 439 microseconds
+Thread: 5, time: 0 seconds 0 miliseconds 576 microseconds
+Thread: 6, time: 0 seconds 0 miliseconds 557 microseconds
+Thread: 7, time: 0 seconds 0 miliseconds 569 microseconds
+Thread: 8, time: 0 seconds 0 miliseconds 522 microseconds
+Total time: 0 seconds 1 miliseconds 356 microseconds
